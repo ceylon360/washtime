@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+#palo-profile {
+	-moz-box-direction: reverse;
+	-webkit-box-direction: reverse;	
+}
+.palo-avatar-img {
+	float: left;
+	display: block;
+}
+.palo-avatar-img .avatar {
+	border-radius: 4px;
+}
+.palo-avatar-info {
+	margin-left: 95px;
+	margin-bottom: 50px;
+}
+#palo-profile input[type=text],
+#palo-profile input[type=email],
+#palo-profile input[type=password],
+#palo-profile textarea {
+	width: 100%;
+}
+#palo-profile select {
+	width: 100%;
+}
+
+.palo-first {
+	width:48%;
+	float: left;
+}
+.palo-last {
+	width: 48%;
+	float: right;
+}
+.palo-profile-submit {
+	width: 100%;
+	clear: both;
+	padding: 20px 0 50px 0;
+}
+html[dir=rtl] .palo-first,
+html[dir=rtl] .palo-last {
+	float: right;
+}
+
+.palo-message {
+	padding: .8em;
+	box-shadow: 0 0 1px #000;
+	margin-top: 3px;
+}
+
+.palo-notice {
+	color: #090;
+	background-color: #F7FFF7;
+	box-shadow: 0 0 1px #090;
+}
+
+.palo-error {
+	color: #900;
+	background-color: #FFF7F7;
+	box-shadow: 0 0 1px #900;
+}
+
+#palo-loginform input[type=text],
+#palo-loginform input[type=email],
+#palo-loginform input[type=password],
+#palo-registerform input[type=text],
+#palo-registerform input[type=email],
+#palo-registerform input[type=password],
+#palo-lostpasswordform input[type=text],
+#palo-lostpasswordform input[type=email],
+#palo-lostpasswordform input[type=password],
+#palo-profile input[type=text],
+#palo-profile input[type=email],
+#palo-profile input[type=password],
+#palo-profile textarea {
+	display: block;
+	width: 100%;
+	height: 40px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+#palo-profile textarea {
+	height: 113px;
+}
+#palo-profile select {
+	height: 34px;
+	border: 1px solid #ddd;
+}
+#palo-loginform p, #palo-registerform p, #palo-lostpasswordform p, #palo-profile p {
+	margin-bottom: 20px;
+}
+.login-submit, .register-submit, .forgotten-submit {
+	margin-top: 35px;
+}
+
+@media only screen and (max-width : 667px) {
+	.palo-first,
+	.palo-last {
+		width: auto;
+		margin: auto;
+		float: none;
+	}
+
+	html[dir=rtl] .palo-first,
+	html[dir=rtl] .palo-last {
+		float: none;
+	}
+}
+
+/* default WP login modal */
+#wp-auth-check-wrap #wp-auth-check {
+	width: 400px!important;
+	margin: 0 0 0 -200px!important;
+}

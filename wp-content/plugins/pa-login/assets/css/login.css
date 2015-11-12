@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#login {
+  width: 400px;
+  font-size: 15px;
+}
+
+.login h1 a {
+  display: none;
+}
+
+.login form {
+  display: inline-block;
+  width: 100%;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  margin-left: 0;
+  margin-top: 0;
+  padding: 40px;
+}
+
+.login form p {
+  font-size: 15px
+}
+
+.login form .forgetmenot {
+	margin-top: 9px;
+}
+
+.login label, .login form .forgetmenot label {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.login form .input, .login input[type="text"] {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  margin-top: 5px;
+  padding: 10px 10px;
+  font-size: 18px;
+  border: none;
+}
+.login input[type="text"], .login input[type="password"] {
+	border: solid 1px #eee;
+}
+
+.login #nav, .login #backtoblog {
+  margin-left: 0;
+  text-align: center;
+  text-shadow: none;
+  font-size: 14px;
+}
+
+.login #nav a, .login #backtoblog a {
+  text-shadow: none;
+  text-decoration: none;
+  padding: 0 5px;
+  outline: none;
+}
+
+.login #backtoblog a, .login #nav a {
+	opacity: 1; 
+	transition: opacity .2s ease;
+} 
+
+.login #backtoblog a:hover, .login #nav a:hover {
+	opacity: .7;
+}
+
+.login-action-register #nav a:hover:nth-child(2):before {
+  color: #7d7f83 !important;
+}
+
+.wp-core-ui .button-primary {
+  font-size: 14px;
+  padding: 9px 15px!important;
+  height: 46px!important;
+  -webkit-border-radius: 3px; 
+  -moz-border-radius: 3px; 
+  border-radius: 3px;
+  box-shadow: none;
+  border: none;
+  -webkit-transition: .07s ease-in;  
+  -moz-transition: .07s ease-in;  
+  -o-transition: .07s ease-in;  
+  transition: .07s ease-in;
+  background-image: none; 
+}
+
+.wp-core-ui .button-primary:hover {
+  cursor: pointer;
+  border: none;
+  box-shadow: none;
+  -webkit-transition: .07s ease-in;  
+  -moz-transition: .07s ease-in;  
+  -o-transition: .07s ease-in;  
+  transition: .07s ease-in; 
+  background-image: none; 
+  opacity: 0.85;
+}
+
+.login-action-lostpassword .button {
+  float: left;
+}
+
+div.updated, .login .message, div.error, .login #login_error {
+  border: none;
+  box-shadow: none;
+  background: none;
+  text-align: center;
+  font-size: 20px;
+  line-height: 26px;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: 300;
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+
+#login_error {
+  margin-top: 5px;
+}
+
+#login_error, .login .message {
+  padding-top: 0;
+  line-height: 1.6em;
+}
+
+.login #login_error a { 
+  clear: both;
+  display: inline-block;
+  text-decoration: underline;
+  margin-right: 1px;
+}
+
+
+.login #login_error a:hover {
+	opacity: .7;
+}
+
+

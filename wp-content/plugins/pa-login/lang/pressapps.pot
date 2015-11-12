@@ -1,0 +1,418 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Login\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-24 01:07-0000\n"
+"PO-Revision-Date: 2014-06-24 01:07-0000\n"
+"Last-Translator: Nabil Kadimi <nabil@kadimi-x-no-spam-x.com>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: login.php:77
+msgid "Captcha verification failed"
+msgstr ""
+
+#: includes/captcha.php:50
+msgid "<strong>ERROR</strong>: Invalid username or incorrect password."
+msgstr ""
+
+#: includes/captcha.php:55
+#: includes/captcha.php:57
+#: includes/captcha.php:84
+#: includes/captcha.php:110
+#: includes/login.php:41
+#: includes/login.php:43
+msgid "ERROR"
+msgstr ""
+
+#: includes/captcha.php:101
+msgid "Try again"
+msgstr ""
+
+#: includes/login.php:96
+#, php-format
+msgid "[%s] New User Registration"
+msgstr ""
+
+#: includes/login.php:98
+#, php-format
+msgid "New user registration on your site %s:"
+msgstr ""
+
+#: includes/login.php:99
+#: includes/login.php:122
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: includes/login.php:100
+#, php-format
+msgid "E-mail: %s"
+msgstr ""
+
+#: includes/login.php:111
+#, php-format
+msgid "[%s] Your username and password"
+msgstr ""
+
+#: includes/login.php:123
+#, php-format
+msgid "Password: %s"
+msgstr ""
+
+#: includes/functions.php:18
+msgid "PA Login & Access Settings"
+msgstr ""
+
+#: includes/functions.php:89
+msgid "Customize the content of new user registration email."
+msgstr ""
+
+#: includes/functions.php:128
+#: includes/shortcodes.php:111
+#: includes/actions/admin.php:141
+#: includes/actions/admin.php:144
+msgid "Login"
+msgstr ""
+
+#: includes/functions.php:129
+#: includes/shortcodes.php:143
+#: includes/shortcodes.php:217
+#: includes/actions/admin.php:149
+#: includes/actions/admin.php:152
+msgid "Register"
+msgstr ""
+
+#: includes/functions.php:130
+msgid "Password Reset"
+msgstr ""
+
+#: includes/functions.php:161
+msgid "Dashboard"
+msgstr ""
+
+#: includes/functions.php:162
+#: includes/functions.php:234
+msgid "Homepage"
+msgstr ""
+
+#: includes/functions.php:164
+#: includes/functions.php:199
+#: includes/functions.php:236
+#: includes/actions/admin.php:46
+#: includes/actions/admin.php:48
+#: includes/actions/admin.php:57
+msgid "Custom URL"
+msgstr ""
+
+#: includes/functions.php:198
+#: includes/functions.php:233
+#: includes/actions/admin.php:60
+msgid "Login Page"
+msgstr ""
+
+#: includes/functions.php:265
+msgid "Insert Image URL or&hellip;"
+msgstr ""
+
+#: includes/functions.php:266
+msgid "Select Image"
+msgstr ""
+
+#: includes/functions.php:275
+msgid "Remove Image"
+msgstr ""
+
+#: includes/functions.php:332
+msgid "Add new user registration email template: %username%, %password%, %loginlink%. Leave blank to use default template"
+msgstr ""
+
+#: includes/functions.php:355
+msgid "Authorize All Content"
+msgstr ""
+
+#: includes/functions.php:356
+msgid "Block All Content"
+msgstr ""
+
+#: includes/functions.php:365
+msgid "Restrict access for non logged in users"
+msgstr ""
+
+#: includes/functions.php:386
+msgid "Except"
+msgstr ""
+
+#: includes/functions.php:415
+msgid "[Untitled]"
+msgstr ""
+
+#: includes/functions.php:440
+msgid "All"
+msgstr ""
+
+#: includes/functions.php:443
+msgid "Taxonomies"
+msgstr ""
+
+#: includes/functions.php:451
+msgid "Posts"
+msgstr ""
+
+#: includes/functions.php:647
+msgid "plus"
+msgstr ""
+
+#: includes/functions.php:648
+msgid "devided by"
+msgstr ""
+
+#: includes/functions.php:649
+msgid "multiplied by"
+msgstr ""
+
+#: includes/functions.php:650
+msgid "minus"
+msgstr ""
+
+#: includes/functions.php:758
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: includes/functions.php:791
+msgid "Password"
+msgstr ""
+
+#: includes/functions.php:795
+msgid "Confirm Password"
+msgstr ""
+
+#: includes/shortcodes.php:23
+msgid "Login to view profile page"
+msgstr ""
+
+#: includes/shortcodes.php:67
+msgid "Change Avatar"
+msgstr ""
+
+#: includes/shortcodes.php:68
+msgid "Note: Avatar is auto taken in Gravatar.com. If you insert you registered email in our email section then your uploaded avatar will be displayed in this section"
+msgstr ""
+
+#: includes/shortcodes.php:72
+msgid "First Name"
+msgstr ""
+
+#: includes/shortcodes.php:73
+msgid "Last Name"
+msgstr ""
+
+#: includes/shortcodes.php:74
+msgid "Nickame"
+msgstr ""
+
+#: includes/shortcodes.php:77
+msgid "Display name publicly as"
+msgstr ""
+
+#: includes/shortcodes.php:80
+msgid "Email"
+msgstr ""
+
+#: includes/shortcodes.php:83
+msgid "New Password"
+msgstr ""
+
+#: includes/shortcodes.php:84
+msgid "Repeat New Password"
+msgstr ""
+
+#: includes/shortcodes.php:85
+msgid "Website"
+msgstr ""
+
+#: includes/shortcodes.php:86
+msgid "Biographical Info"
+msgstr ""
+
+#: includes/shortcodes.php:91
+msgid "Update Profile"
+msgstr ""
+
+#: includes/shortcodes.php:112
+#: includes/actions/admin.php:141
+#: includes/actions/admin.php:144
+msgid "Logout"
+msgstr ""
+
+#: includes/shortcodes.php:144
+msgid "You are already registered"
+msgstr ""
+
+#: includes/shortcodes.php:208
+msgid "Username"
+msgstr ""
+
+#: includes/shortcodes.php:212
+msgid "E-mail"
+msgstr ""
+
+#: includes/shortcodes.php:241
+msgid "Username or E-mail"
+msgstr ""
+
+#: includes/shortcodes.php:246
+msgid "Get New Password"
+msgstr ""
+
+#: includes/actions/admin.php:13
+msgid "Custom Plugin Page"
+msgstr ""
+
+#: includes/actions/admin.php:13
+msgid "PA Login & Access"
+msgstr ""
+
+#: includes/actions/admin.php:45
+msgid "Redirect After Login"
+msgstr ""
+
+#: includes/actions/admin.php:47
+msgid "Redirect After Logout"
+msgstr ""
+
+#: includes/actions/admin.php:49
+msgid "Users Generated Password"
+msgstr ""
+
+#: includes/actions/admin.php:50
+msgid "Enable Math Captcha"
+msgstr ""
+
+#: includes/actions/admin.php:52
+msgid "Subject"
+msgstr ""
+
+#: includes/actions/admin.php:53
+msgid "Content"
+msgstr ""
+
+#: includes/actions/admin.php:55
+msgid "Restrict Front End Access"
+msgstr ""
+
+#: includes/actions/admin.php:56
+msgid "Redirect To"
+msgstr ""
+
+#: includes/actions/admin.php:58
+msgid "Restrict Admin Access"
+msgstr ""
+
+#: includes/actions/admin.php:61
+msgid "Background Image"
+msgstr ""
+
+#: includes/actions/admin.php:62
+#: includes/actions/admin.php:69
+msgid "Background Color"
+msgstr ""
+
+#: includes/actions/admin.php:63
+msgid "Form Background Color"
+msgstr ""
+
+#: includes/actions/admin.php:64
+#: includes/actions/admin.php:70
+msgid "Text Color"
+msgstr ""
+
+#: includes/actions/admin.php:65
+msgid "Links & Message Color"
+msgstr ""
+
+#: includes/actions/admin.php:66
+#: includes/actions/admin.php:72
+msgid "Button Text Color"
+msgstr ""
+
+#: includes/actions/admin.php:67
+#: includes/actions/admin.php:73
+msgid "Button Background Color"
+msgstr ""
+
+#: includes/actions/admin.php:68
+msgid "Modal Login"
+msgstr ""
+
+#: includes/actions/admin.php:71
+msgid "Links Color"
+msgstr ""
+
+#: includes/actions/admin.php:74
+msgid "General"
+msgstr ""
+
+#: includes/actions/admin.php:75
+msgid "Enter custom CSS for the front-end"
+msgstr ""
+
+#: includes/actions/admin.php:76
+msgid "Enter custom CSS for WP login page and modal login"
+msgstr ""
+
+#: includes/actions/admin.php:79
+msgid "PA Modal Link"
+msgstr ""
+
+#: includes/actions/admin.php:100
+msgid "Login Label"
+msgstr ""
+
+#: includes/actions/admin.php:101
+msgid "Logout Label"
+msgstr ""
+
+#: includes/actions/admin.php:159
+msgid "Add to Menu"
+msgstr ""
+
+#: includes/actions/front.php:25
+msgid "The form expired, please try again."
+msgstr ""
+
+#: includes/actions/front.php:33
+msgid "The email address is required."
+msgstr ""
+
+#: includes/actions/front.php:36
+msgid "The email address is not valid."
+msgstr ""
+
+#: includes/actions/front.php:39
+msgid "The email you entered is used by another user."
+msgstr ""
+
+#: includes/actions/front.php:48
+msgid "The nickname is required."
+msgstr ""
+
+#: includes/actions/front.php:58
+msgid "Passwords do not match."
+msgstr ""
+
+#: includes/actions/front.php:91
+msgid "Profile updated successfully."
+msgstr ""
+
